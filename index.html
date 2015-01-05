@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Vroom - jQuery Speedometer</title>
+    <link rel="stylesheet" href="css/vroom.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.11.4/plugins/CSSPlugin.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.11.4/easing/EasePack.min.js"></script>
+	<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.11.4/TweenLite.min.js"></script>
+	<script type="text/javascript" src="js/vroom.js"></script>
+</head>
+<style>
+
+</style>
+<body>
+<div id="wrapper">
+	<div id="left">
+		<div>
+			<label for='miles'>Miles:</label> <input type="text" name="miles" id="miles" />
+		</div>
+		<div>
+			<label for='kilometers'>Kilometers:</label> <input type="text" name="kilometers" id="kilometers" />
+		</div>
+		<p id="errmsg"></p>
+	</div>
+
+	<div id="gauge">
+		<div id="circle"></div>
+		<div id="numbers"></div>
+		<div id="mi-km"></div>
+		<div id="needle"></div>
+
+
+		
+		
+	</div>
+</div>
+
+</body>
+</html>
